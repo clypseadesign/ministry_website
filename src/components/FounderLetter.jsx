@@ -6,17 +6,17 @@ export default function FounderLetter() {
       <div className="container">
         {/* Section Heading */}
         <h2 
-          className="section-title" 
-          style={{ 
-            fontSize: '2.1rem', 
-            color: '#005595', 
-            fontFamily: "var(--font-heading-fancy)", 
+          style={{
+            fontSize: '2.6rem',
+            color: '#005495',
+            fontFamily: 'var(--font-heading-fancy)', 
             marginBottom: '40px',
             textAlign: 'center',
-            letterSpacing: '1px'
+            letterSpacing: '1px',
+            textTransform: 'uppercase'
           }}
         >
-          MESSAGE FROM THE FOUNDER/DIRECTOR
+          Message from the Founder/Director
         </h2>
 
         {/* High Resolution Letter Image Container */}
@@ -26,7 +26,7 @@ export default function FounderLetter() {
             margin: '0 auto', 
             background: '#ffffff',
             borderRadius: '20px',
-            boxShadow: '0 12px 36px rgba(0, 51, 102, 0.15)',
+            boxShadow: '0 12px 36px rgba(0, 85, 149, 0.15)',
             border: '2px solid #cbe0f5',
             overflow: 'hidden',
             padding: '12px'

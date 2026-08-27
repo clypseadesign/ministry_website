@@ -8,7 +8,7 @@ export default function UnitsInitiatives() {
       icon: Music,
       title: 'Music & Arts Division',
       description: 'Creating and producing multilingual spiritual music, orchestral performances, and artistic expressions that celebrate the universal Royal Law of Love.',
-      color: '#005595'
+      color: '#005495'
     },
     {
       icon: GraduationCap,
@@ -20,7 +20,7 @@ export default function UnitsInitiatives() {
       icon: HeartHandshake,
       title: 'Humanitarian Services',
       description: 'Providing direct assistance to communities in need through food programs, shelter support, and emergency relief services.',
-      color: '#005595'
+      color: '#005495'
     },
     {
       icon: Users,
@@ -32,7 +32,7 @@ export default function UnitsInitiatives() {
       icon: Radio,
       title: 'Media & Communications',
       description: 'Managing our global communications strategy including radio, social media, publications, and digital content production.',
-      color: '#005595'
+      color: '#005495'
     },
     {
       icon: Baby,
@@ -67,7 +67,7 @@ export default function UnitsInitiatives() {
           <section className="section" style={{ background: '#ffffff' }}>
             <div className="container">
               <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 48px auto' }}>
-                <h2 style={{ fontSize: '3.2rem', color: '#005595', marginBottom: '20px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                <h2 style={{ fontSize: '3.2rem', color: '#005495', marginBottom: '20px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                   Organized for Maximum Impact
                 </h2>
                 <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', lineHeight: '1.8' }}>
@@ -130,7 +130,7 @@ export default function UnitsInitiatives() {
 
               {/* Call to Action */}
               <div style={{ 
-                background: 'linear-gradient(135deg, #005595 0%, #003d73 100%)', 
+                background: 'linear-gradient(135deg, #005495 0%, #003d73 100%)', 
                 padding: '48px', 
                 borderRadius: 'var(--radius-md)', 
                 textAlign: 'center',
@@ -149,7 +149,7 @@ export default function UnitsInitiatives() {
                       display: 'inline-block',
                       padding: '14px 32px',
                       background: '#D6B56C',
-                      color: '#005595',
+                      color: '#005495',
                       textDecoration: 'none',
                       borderRadius: 'var(--radius-sm)',
                       fontWeight: '700',
@@ -160,11 +160,11 @@ export default function UnitsInitiatives() {
                     }}
                     onMouseEnter={(e) => {
                       e.currentTarget.style.background = '#ffffff';
-                      e.currentTarget.style.color = '#005595';
+                      e.currentTarget.style.color = '#005495';
                     }}
                     onMouseLeave={(e) => {
                       e.currentTarget.style.background = '#D6B56C';
-                      e.currentTarget.style.color = '#005595';
+                      e.currentTarget.style.color = '#005495';
                     }}
                   >
                     Get Involved
@@ -187,7 +187,7 @@ export default function UnitsInitiatives() {
                     }}
                     onMouseEnter={(e) => {
                       e.currentTarget.style.background = '#ffffff';
-                      e.currentTarget.style.color = '#005595';
+                      e.currentTarget.style.color = '#005495';
                     }}
                     onMouseLeave={(e) => {
                       e.currentTarget.style.background = 'transparent';

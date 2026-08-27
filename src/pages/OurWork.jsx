@@ -59,7 +59,7 @@ export default function OurWork() {
           {/* Intro Section */}
           <section className="section" style={{ background: '#ffffff', padding: '64px 0 32px 0' }}>
             <div style={{ maxWidth: '840px', margin: '0 auto', textAlign: 'center', padding: '0 24px' }}>
-              <h2 style={{ fontSize: '3.2rem', color: '#005595', marginBottom: '20px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <h2 style={{ fontSize: '3.2rem', color: '#005495', marginBottom: '20px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 TRANSFORMING LIVES THROUGH LOVE
               </h2>
               <p style={{ color: 'var(--text-muted)', lineHeight: '1.75', fontSize: '1.02rem', marginBottom: '56px' }}>
@@ -87,7 +87,7 @@ export default function OurWork() {
                     />
                     <h3 
                       style={{ 
-                        color: '#005595', 
+                        color: '#005495', 
                         fontSize: '1.8rem',
                         fontFamily: 'var(--font-heading-fancy)', 
                         marginBottom: '8px', 
@@ -110,7 +110,7 @@ export default function OurWork() {
           {/* Global Impact Counter Section */}
           <section className="section" style={{ background: '#ffffff', padding: '64px 0 80px 0', textAlign: 'center' }}>
             <div className="container">
-              <h2 style={{ fontSize: '3.2rem', color: '#005595', marginBottom: '48px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <h2 style={{ fontSize: '3.2rem', color: '#005495', marginBottom: '48px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 OUR GLOBAL IMPACT
               </h2>
               <StatsCounter stats={[

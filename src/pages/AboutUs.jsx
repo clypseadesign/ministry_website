@@ -71,7 +71,7 @@ export default function AboutUs() {
           {/* Section 1: WHO WE ARE (Centered Layout) */}
           <section className="section" style={{ background: '#ffffff', padding: '64px 0 48px 0' }}>
             <div style={{ maxWidth: '960px', margin: '0 auto', textAlign: 'center', padding: '0 24px' }}>
-              <h2 style={{ fontSize: '3.2rem', color: '#005595', marginBottom: '24px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <h2 style={{ fontSize: '3.2rem', color: '#005495', marginBottom: '24px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 WHO WE ARE
               </h2>
               <p style={{ color: 'var(--text-muted)', marginBottom: '18px', lineHeight: '1.8', fontSize: '1.05rem' }}>
@@ -85,7 +85,7 @@ export default function AboutUs() {
                 to="/donate-us" 
                 style={{ 
                   display: 'inline-block',
-                  background: '#005595', 
+                  background: '#005495', 
                   borderRadius: '9999px', 
                   padding: '14px 40px', 
                   fontSize: '1.05rem', 
@@ -125,7 +125,7 @@ export default function AboutUs() {
                     style={{ 
                       textAlign: 'left', 
                       fontSize: '2.6rem',
-                      color: '#005595', 
+                      color: '#005495', 
                       marginBottom: '20px',
                       lineHeight: '1.3',
                       fontFamily: 'var(--font-heading-fancy)',
@@ -138,7 +138,7 @@ export default function AboutUs() {
                   <p style={{ color: 'var(--text-muted)', marginBottom: '20px', lineHeight: '1.8', fontSize: '1.05rem' }}>
                     The family behind God Cares Ministries continues to support the ministry, its charitable purposes, and all productions through personal sacrifice and dedicated commitment.
                   </p>
-                    <p style={{ fontWeight: '700', color: '#005595', fontSize: '0.95rem', lineHeight: '1.6' }}>
+                    <p style={{ fontWeight: '700', color: '#005495', fontSize: '0.95rem', lineHeight: '1.6' }}>
                     Left to Right : Sharon Doris Angel . J, C . James White, Vijaya James White, & Stanley Dev Adams
                   </p>
                 </div>
@@ -149,7 +149,7 @@ export default function AboutUs() {
           {/* Section 3: OUR MISSION & VALUES (Side-by-Side Cards) */}
           <section className="section" style={{ background: '#ffffff', padding: '48px 0 64px 0' }}>
             <div className="container">
-              <h2 style={{ fontSize: '3.2rem', color: '#005595', marginBottom: '40px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px', textAlign: 'center' }}>
+              <h2 style={{ fontSize: '3.2rem', color: '#005495', marginBottom: '40px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px', textAlign: 'center' }}>
                 OUR MISSION & VALUES
               </h2>
 
@@ -169,7 +169,7 @@ export default function AboutUs() {
                       height: '48px', 
                       borderRadius: '50%', 
                       background: '#ffffff', 
-                      color: '#005595', 
+                      color: '#005495', 
                       display: 'flex', 
                       alignItems: 'center', 
                       justifyContent: 'center', 
@@ -179,7 +179,7 @@ export default function AboutUs() {
                   >
                     <Eye size={24} />
                   </div>
-                  <h3 style={{ color: '#005595', fontSize: '2rem', marginBottom: '16px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                  <h3 style={{ color: '#005495', fontSize: '2rem', marginBottom: '16px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                     OUR VISION
                   </h3>
                   <p style={{ color: 'var(--text-muted)', lineHeight: '1.75', fontSize: '0.98rem' }}>
@@ -202,7 +202,7 @@ export default function AboutUs() {
                       height: '48px', 
                       borderRadius: '50%', 
                       background: '#ffffff', 
-                      color: '#005595', 
+                      color: '#005495', 
                       display: 'flex', 
                       alignItems: 'center', 
                       justifyContent: 'center', 
@@ -212,7 +212,7 @@ export default function AboutUs() {
                   >
                     <Edit3 size={24} />
                   </div>
-                  <h3 style={{ color: '#005595', fontSize: '2rem', marginBottom: '16px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                  <h3 style={{ color: '#005495', fontSize: '2rem', marginBottom: '16px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                     OUR MISSION
                   </h3>
                   <p style={{ color: 'var(--text-muted)', lineHeight: '1.75', fontSize: '0.98rem' }}>
@@ -226,7 +226,7 @@ export default function AboutUs() {
           {/* Section 4: OUR CORE VALUES (2-Column Grid with Left Collage Image) */}
           <section className="section" style={{ background: '#ffffff', padding: '48px 0 64px 0' }}>
             <div className="container">
-              <h2 style={{ textAlign: 'left', fontSize: '3.2rem', color: '#005595', marginBottom: '8px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <h2 style={{ textAlign: 'left', fontSize: '3.2rem', color: '#005495', marginBottom: '8px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 OUR CORE VALUES
               </h2>
               <p style={{ color: 'var(--text-muted)', marginBottom: '36px', fontSize: '0.98rem', maxWidth: '640px' }}>
@@ -258,7 +258,7 @@ export default function AboutUs() {
                           width: '40px', 
                           height: '40px', 
                           borderRadius: '50%', 
-                          background: '#005595', 
+                          background: '#005495', 
                           color: '#ffffff', 
                           display: 'flex', 
                           alignItems: 'center', 
@@ -270,7 +270,7 @@ export default function AboutUs() {
                         {item.icon}
                       </div>
                       <div>
-                        <h4 style={{ fontFamily: 'var(--font-heading-fancy)', fontSize: '1.5rem', color: '#005595', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                        <h4 style={{ fontFamily: 'var(--font-heading-fancy)', fontSize: '1.5rem', color: '#005495', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '1px' }}>
                           {item.title}
                         </h4>
                         <p style={{ color: 'var(--text-muted)', fontSize: '0.92rem', lineHeight: '1.6' }}>
@@ -289,7 +289,7 @@ export default function AboutUs() {
             <div className="container">
               <div 
                 style={{ 
-                  background: '#005595', 
+                  background: '#005495', 
                   color: '#ffffff', 
                   borderRadius: '28px', 
                   padding: '56px 48px', 
@@ -306,7 +306,7 @@ export default function AboutUs() {
                 <span
                   style={{
                     fontFamily: "'Anastasia', 'Limelight', 'Poiret One', 'Cinzel Decorative', cursive, serif",
-                    color: '#005595',
+                    color: '#005495',
                     fontWeight: '500',
                     fontSize: '2rem',
                     letterSpacing: '2px',

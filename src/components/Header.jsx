@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logoImg from '/home-page/logo.png';
+import logoImg from '/logo-do-5.png';
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -29,6 +29,10 @@ export default function Header() {
             alt="God Cares Ministries (A MINISTRY ROOTED IN LOVE)" 
             className="header-logo-image"
           />
+          <div className="header-logo-textblock">
+            <span className="header-logo-text">God Cares Ministries</span>
+            <span className="header-logo-tagline">(A Ministry Rooted in Love)</span>
+          </div>
         </NavLink>
 
         <button 

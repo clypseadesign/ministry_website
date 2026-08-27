@@ -1,13 +1,13 @@
 :root {
-  /* Exact Colors extracted from Homepage Master Image */
-  --primary-blue: #005595;
-  --primary-dark-blue: #003366;
-  --primary-navy: #002244;
-  --accent-gold: #ffd700;
-  --accent-light-blue: #00a8ff;
-  --sky-blue-top: #1b84e7;
-  --sky-blue-bottom: #87c5fb;
-  --bg-light-blue: #f0f5fc;
+  /* Exact Colors from Figma design (phase 1) */
+  --primary-blue: #005495;
+  --primary-dark-blue: #004D91;
+  --primary-navy: #004D91;
+  --accent-gold: #D6B56C;
+  --accent-light-blue: #EBF0FF;
+  --sky-blue-top: #0486E6;
+  --sky-blue-bottom: #005495;
+  --bg-light-blue: #F0F6FF;
   --bg-card: #eff5fb;
   --border-card: #cbe0f5;
   
@@ -15,15 +15,17 @@
   --text-muted: #334155;
   --text-white: #ffffff;
   
-  /* Exact Typography Families matching screenshots */
+  /* Typography Families matching PDFs */
   --font-heading-fancy: 'Limelight', 'Poiret One', 'Cinzel Decorative', 'Anastasia', cursive, serif;
   --font-heading: 'Century Gothic', 'Outfit', sans-serif;
   --font-body: 'Century Gothic', 'Outfit', system-ui, -apple-system, sans-serif;
+  /* Brush Script logo font */
+  --font-logo: 'Brush Script MT', 'Brush Script', 'Pacifico', cursive;
   
   /* Layout Spacing & Radius */
   --shadow-sm: 0 2px 8px rgba(0, 85, 149, 0.08);
   --shadow-md: 0 8px 24px rgba(0, 85, 149, 0.12);
-  --shadow-lg: 0 16px 36px rgba(0, 51, 102, 0.18);
+  --shadow-lg: 0 16px 36px rgba(0, 85, 149, 0.18);
   --radius-sm: 8px;
   --radius-md: 20px;
   --radius-lg: 28px;

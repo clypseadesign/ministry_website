@@ -71,7 +71,7 @@ export default function Footer() {
 
         {/* Copyright Bar */}
         <div style={{ textAlign: 'center', borderTop: '1px solid rgba(255, 255, 255, 0.1)', paddingTop: '24px', color: '#94a3b8', fontSize: '0.85rem', letterSpacing: '1px' }}>
-          <p>© 2026 GOD'S CARES MINISTRIES. ALL RIGHTS RESERVED.</p>
+          <p>© 2026 GOD CARES MINISTRIES</p>
         </div>
       </div>
     </footer>

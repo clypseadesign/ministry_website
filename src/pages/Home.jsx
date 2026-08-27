@@ -10,25 +10,25 @@ export default function Home() {
   const flexCards = [
     {
       id: 0,
-      title: 'FOOD, CLOTHING, MEDICAL AND SHELTER ASSISTANCE',
-      text: 'Providing food, clothing, medical, and shelter support for individuals and family facing hardship...',
+      title: 'Food, clothing, MEDICAL and shelter assistance',
+      text: 'Providing food, clothing, medical, and shelter support for individuals and family facing hardship.',
       img: '/home-page/card1.png'
     },
     {
       id: 1,
-      title: 'EDUCATION SUPPORT',
+      title: 'Education Support',
       text: 'Helping children and students through educational assistance, guidance, and opportunities for growth.',
       img: '/home-page/card2.png'
     },
     {
       id: 2,
-      title: 'MEDICAL SUPPORT',
+      title: 'Medical Support',
       text: 'Supporting healthcare and wellness initiatives for vulnerable communities.',
       img: '/home-page/card3.png'
     },
     {
       id: 3,
-      title: 'MORAL GUIDANCE',
+      title: 'Moral Guidance',
       text: 'Sharing values rooted in The Universal Royal Law of Love to nurture dignity, compassion, and conscience.',
       img: '/home-page/card4.png'
     }
@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section using /home-page/hero.png */}
-      <section style={{ position: 'relative', width: '100%', overflow: 'hidden', background: '#0a4275' }}>
+      <section style={{ position: 'relative', width: '100%', overflow: 'hidden', background: '#005495' }}>
         <a href="/donate-us" style={{ display: 'block', width: '100%' }}>
           <img 
             src="/home-page/hero.png" 
@@ -70,13 +70,13 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Section 1: Welcome & What We Do (EXACT MATCH TO USER SCREENSHOT) */}
+      {/* Section 1: Welcome & What We Do */}
       <section className="section" style={{ background: '#ffffff', padding: '64px 0' }}>
         <div className="container">
           <div className="grid-2" style={{ alignItems: 'flex-start', gap: '48px' }}>
             {/* Left Column: Welcome */}
             <div>
-              <h2 className="section-title" style={{ textAlign: 'left', fontSize: '2.1rem', color: '#005595', marginBottom: '24px', letterSpacing: '1px' }}>
+              <h2 style={{ fontSize: '2.6rem', color: '#005495', marginBottom: '24px', letterSpacing: '1px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase' }}>
                 WELCOME TO GOD CARES MINISTRIES
               </h2>
               <p style={{ color: 'var(--text-muted)', marginBottom: '18px', lineHeight: '1.75', fontSize: '1rem' }}>
@@ -92,16 +92,19 @@ export default function Home() {
                 Our service is for all people—beyond religion, culture, or nationality. Whether you are seeking help, looking for a place to serve, or wishing to support a meaningful cause, you are welcome here.
               </p>
               
-              <NavLink 
-                to="/donate-us" 
-                className="btn-primary" 
-                style={{ 
-                  background: '#005595', 
-                  borderRadius: '9999px', 
-                  padding: '14px 36px', 
-                  fontSize: '1.05rem', 
-                  color: '#ffffff', 
-                  boxShadow: '0 8px 20px rgba(0, 85, 149, 0.25)' 
+              <NavLink
+                to="/donate-us"
+                style={{
+                  display: 'inline-block',
+                  background: 'var(--accent-gold)',
+                  borderRadius: '9999px',
+                  padding: '14px 36px',
+                  fontSize: '1.05rem',
+                  color: '#005495',
+                  boxShadow: '0 8px 20px rgba(0, 85, 149, 0.25)',
+                  whiteSpace: 'nowrap',
+                  textDecoration: 'none',
+                  fontWeight: '600'
                 }}
               >
                 Because GOD CARES—and so do we.
@@ -111,20 +114,21 @@ export default function Home() {
             {/* Right Column: What We Do Card */}
             <div 
               style={{ 
-                background: '#005595', 
+                background: '#005495', 
                 color: '#ffffff', 
                 borderRadius: '28px', 
                 padding: '40px 44px',
                 boxShadow: '0 12px 32px rgba(0, 85, 149, 0.2)'
               }}
             >
-              <h3 
-                style={{ 
-                  color: '#ffffff', 
-                  marginBottom: '24px', 
-                  fontFamily: 'var(--font-heading-fancy)', 
-                  fontSize: '2.1rem',
-                  letterSpacing: '1px'
+              <h3
+                style={{
+                  color: '#ffffff',
+                  marginBottom: '24px',
+                  fontFamily: 'var(--font-heading-fancy)',
+                  fontSize: '2.6rem',
+                  letterSpacing: '1px',
+                  textTransform: 'uppercase'
                 }}
               >
                 WHAT WE DO
@@ -140,10 +144,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 2: THROUGH FAITH-DRIVEN SERVICE AND COMPASSIONATE ACTION, WE PROVIDE */}
+      {/* Section 2: Through faith-driven service... */}
       <section className="section" style={{ background: '#ffffff', padding: '40px 0 80px 0' }}>
         <div className="container">
-          <h2 className="section-title" style={{ fontSize: '2rem', color: 'var(--primary-blue)', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '12px' }}>
+          <h2 style={{ fontSize: '2.5rem', color: 'var(--primary-blue)', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '12px', fontFamily: 'var(--font-heading-fancy)', textAlign: 'center' }}>
             THROUGH FAITH-DRIVEN SERVICE AND COMPASSIONATE ACTION, WE PROVIDE
           </h2>
 
@@ -170,7 +174,7 @@ export default function Home() {
       {/* Section 3: Our Belief: Spreading Love Across the World */}
       <section className="section" style={{ background: 'var(--bg-light-blue)' }}>
         <div className="container">
-          <h2 className="section-title" style={{ fontSize: '1.8rem', marginBottom: '36px' }}>
+          <h2 style={{ fontSize: '2.3rem', marginBottom: '36px', fontFamily: 'var(--font-heading-fancy)', color: 'var(--primary-blue)', textTransform: 'uppercase', letterSpacing: '1px', textAlign: 'center' }}>
             OUR BELIEF: SPREADING LOVE ACROSS THE WORLD
           </h2>
           <div className="grid-2" style={{ alignItems: 'center', gap: '40px' }}>
@@ -201,50 +205,50 @@ export default function Home() {
               <span style={{ color: 'var(--accent-gold)', fontWeight: '700', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 SUPPORT OUR MISSION
               </span>
-              <h2 style={{ fontSize: '2.4rem', fontFamily: 'var(--font-heading-fancy)', margin: '12px 0 20px 0', color: '#ffffff' }}>
+              <h2 style={{ fontSize: '3rem', fontFamily: 'var(--font-heading-fancy)', margin: '12px 0 20px 0', color: '#ffffff', letterSpacing: '2px', lineHeight: '1.2' }}>
                 Your Support Can Change Lives
               </h2>
               <p style={{ color: '#cbd5e1', marginBottom: '28px', fontSize: '0.95rem', lineHeight: '1.7' }}>
                 Every contribution helps us continue our mission of love, service, and hope for a better tomorrow.
               </p>
-              <NavLink to="/donate-us" className="btn-primary" style={{ background: 'var(--accent-gold)', color: 'var(--primary-navy)' }}>
+              <NavLink to="/donate-us" className="btn-primary" style={{ background: 'var(--accent-gold)', color: '#005495', whiteSpace: 'nowrap' }}>
                 Make a Donation ♡
               </NavLink>
             </div>
 
             <div className="grid-3" style={{ gap: '16px' }}>
-              <div className="card-item" style={{ background: 'rgba(255, 255, 255, 0.08)', color: '#ffffff', textAlign: 'center', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
+              <div style={{ background: 'rgba(255, 255, 255, 0.08)', color: '#ffffff', textAlign: 'center', border: '1px solid rgba(255, 255, 255, 0.2)', borderRadius: 'var(--radius-md)', padding: '24px' }}>
                 <span style={{ fontSize: '0.75rem', letterSpacing: '1px', textTransform: 'uppercase', color: '#cbd5e1' }}>BASIC SUPPORT</span>
                 <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-gold)', margin: '8px 0' }}>₹ 500</div>
                 <ul style={{ listStyle: 'none', fontSize: '0.8rem', color: '#cbd5e1', marginBottom: '16px', lineHeight: '1.8' }}>
                   <li>✓ Local Programs</li>
                   <li>✓ Peace Literature</li>
                 </ul>
-                <NavLink to="/donate-us" className="btn-secondary" style={{ color: '#ffffff', borderColor: '#ffffff', fontSize: '0.8rem', width: '100%' }}>
+                <NavLink to="/donate-us" style={{ display: 'inline-block', color: '#ffffff', border: '2px solid #ffffff', padding: '8px 20px', borderRadius: '9999px', fontSize: '0.8rem', textDecoration: 'none', fontWeight: '700' }}>
                   Donate Now
                 </NavLink>
               </div>
 
-              <div className="card-item" style={{ background: 'rgba(255, 255, 255, 0.08)', color: '#ffffff', textAlign: 'center', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
+              <div style={{ background: 'rgba(255, 255, 255, 0.08)', color: '#ffffff', textAlign: 'center', border: '1px solid rgba(255, 255, 255, 0.2)', borderRadius: 'var(--radius-md)', padding: '24px' }}>
                 <span style={{ fontSize: '0.75rem', letterSpacing: '1px', textTransform: 'uppercase', color: '#cbd5e1' }}>GROWTH SUPPORT</span>
                 <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-gold)', margin: '8px 0' }}>₹ 1000</div>
                 <ul style={{ listStyle: 'none', fontSize: '0.8rem', color: '#cbd5e1', marginBottom: '16px', lineHeight: '1.8' }}>
                   <li>✓ Multilingual Trans</li>
                   <li>✓ Sponsor Peace Events</li>
                 </ul>
-                <NavLink to="/donate-us" className="btn-secondary" style={{ color: '#ffffff', borderColor: '#ffffff', fontSize: '0.8rem', width: '100%' }}>
+                <NavLink to="/donate-us" style={{ display: 'inline-block', color: '#ffffff', border: '2px solid #ffffff', padding: '8px 20px', borderRadius: '9999px', fontSize: '0.8rem', textDecoration: 'none', fontWeight: '700' }}>
                   Donate Now
                 </NavLink>
               </div>
 
-              <div className="card-item" style={{ background: 'rgba(255, 255, 255, 0.08)', color: '#ffffff', textAlign: 'center', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
+              <div style={{ background: 'rgba(255, 255, 255, 0.08)', color: '#ffffff', textAlign: 'center', border: '1px solid rgba(255, 255, 255, 0.2)', borderRadius: 'var(--radius-md)', padding: '24px' }}>
                 <span style={{ fontSize: '0.75rem', letterSpacing: '1px', textTransform: 'uppercase', color: '#cbd5e1' }}>SPONSOR INITIATIVE</span>
                 <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-gold)', margin: '8px 0' }}>₹ 5000</div>
                 <ul style={{ listStyle: 'none', fontSize: '0.8rem', color: '#cbd5e1', marginBottom: '16px', lineHeight: '1.8' }}>
                   <li>✓ Impact Reports</li>
                   <li>✓ VIP Event Access</li>
                 </ul>
-                <NavLink to="/donate-us" className="btn-secondary" style={{ color: '#ffffff', borderColor: '#ffffff', fontSize: '0.8rem', width: '100%' }}>
+                <NavLink to="/donate-us" style={{ display: 'inline-block', color: '#ffffff', border: '2px solid #ffffff', padding: '8px 20px', borderRadius: '9999px', fontSize: '0.8rem', textDecoration: 'none', fontWeight: '700' }}>
                   Donate Now
                 </NavLink>
               </div>
@@ -256,7 +260,9 @@ export default function Home() {
       {/* Section 5: Founder Profile */}
       <section className="section" style={{ background: '#ffffff' }}>
         <div className="container">
-          <h2 className="section-title">ABOUT THE FOUNDER / DIRECTOR</h2>
+          <h2 style={{ fontSize: '2.6rem', color: 'var(--primary-blue)', marginBottom: '36px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px', textAlign: 'center' }}>
+            ABOUT THE FOUNDER / DIRECTOR
+          </h2>
           <div className="grid-2" style={{ alignItems: 'flex-start', gap: '40px', marginTop: '36px' }}>
             <div style={{ textAlign: 'center' }}>
               <img 
@@ -266,7 +272,7 @@ export default function Home() {
               />
             </div>
             <div>
-              <h3 style={{ fontSize: '2rem', color: 'var(--primary-dark-blue)', marginBottom: '8px', fontFamily: 'var(--font-heading-fancy)' }}>
+              <h3 style={{ fontSize: '2.5rem', color: 'var(--primary-dark-blue)', marginBottom: '8px', fontFamily: 'var(--font-heading-fancy)', letterSpacing: '1px' }}>
                 C. JAMES WHITE
               </h3>
               <p style={{ color: 'var(--text-muted)', lineHeight: '1.8', fontSize: '0.95rem' }}>
@@ -277,8 +283,8 @@ export default function Home() {
         </div>
 
         {/* Blue Sub-banner */}
-        <div style={{ background: 'var(--primary-blue)', color: '#ffffff', textAlign: 'center', padding: '16px 0', marginTop: '48px' }}>
-          <h3 style={{ fontFamily: 'var(--font-heading-fancy)', letterSpacing: '4px', textTransform: 'uppercase', fontSize: '1.4rem' }}>
+        <div style={{ background: 'var(--primary-blue)', color: '#ffffff', textAlign: 'center', padding: '20px 0', marginTop: '48px' }}>
+          <h3 style={{ fontFamily: 'var(--font-heading-fancy)', letterSpacing: '4px', textTransform: 'uppercase', fontSize: '2.4rem' }}>
             Founder . Visionary . Servant Leader
           </h3>
         </div>

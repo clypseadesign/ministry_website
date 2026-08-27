@@ -13,11 +13,11 @@ export default function PaymentSuccessful() {
       <PageHero title="PAYMENT SUCCESSFUL" subtitle="THANK YOU FOR YOUR GENEROSITY" showButton={false} />
 
       <section className="section" style={{ background: '#ffffff' }}>
-        <div className="container-narrow">
-          <div className="card-item" style={{ textAlign: 'center', padding: '48px', background: 'var(--bg-card)' }}>
+        <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 24px' }}>
+          <div style={{ textAlign: 'center', padding: '48px', background: 'var(--bg-card)', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-card)' }}>
             <CheckCircle2 size={72} style={{ color: '#16a34a', margin: '0 auto 20px auto' }} />
             
-            <h2 style={{ fontSize: '2rem', color: 'var(--primary-dark-blue)', fontFamily: 'var(--font-heading-fancy)', marginBottom: '8px' }}>
+            <h2 style={{ fontSize: '2.5rem', color: 'var(--primary-dark-blue)', fontFamily: 'var(--font-heading-fancy)', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>
               TRANSACTION SUCCESSFUL!
             </h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', marginBottom: '28px' }}>

@@ -38,7 +38,7 @@ export default function ContactUs() {
               <div className="grid-2" style={{ gap: '48px' }}>
                 {/* Contact Info */}
                 <div>
-                  <h2 style={{ fontSize: '2.6rem', color: '#005595', marginBottom: '24px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px', textAlign: 'left' }}>
+                  <h2 style={{ fontSize: '2.6rem', color: '#005495', marginBottom: '24px', fontFamily: 'var(--font-heading-fancy)', textTransform: 'uppercase', letterSpacing: '1px', textAlign: 'left' }}>
                     Contact Information
                   </h2>
                   <p style={{ color: 'var(--text-muted)', lineHeight: '1.7', marginBottom: '32px', fontSize: '1rem' }}>
@@ -47,7 +47,7 @@ export default function ContactUs() {
 
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', marginBottom: '32px' }}>
                     <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
-                      <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#005595', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                      <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#005495', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                         <MapPin size={22} />
                       </div>
                       <div>
@@ -60,7 +60,7 @@ export default function ContactUs() {
                     </div>
 
                     <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
-                      <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#005595', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                      <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#005495', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                         <Mail size={22} />
                       </div>
                       <div>
@@ -70,7 +70,7 @@ export default function ContactUs() {
                     </div>
 
                     <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
-                      <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#005595', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                      <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#005495', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                         <Phone size={22} />
                       </div>
                       <div>
@@ -157,19 +157,19 @@ export default function ContactUs() {
                     </p>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                        <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#005595', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#005495', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                           <Mail size={18} />
                         </div>
                         <span style={{ color: 'var(--text-dark)', fontSize: '0.95rem' }}>support@theuniversalroyallawoflove.org</span>
                       </div>
                       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                        <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#005595', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#005495', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                           <Phone size={18} />
                         </div>
                         <span style={{ color: 'var(--text-dark)', fontSize: '0.95rem' }}>+91-88923 36400</span>
                       </div>
                       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                        <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#005595', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#005495', color: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                           <MapPin size={18} />
                         </div>
                         <span style={{ color: 'var(--text-dark)', fontSize: '0.95rem' }}>Bangalore, Karnataka, India</span>
