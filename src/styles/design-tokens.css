@@ -16,8 +16,8 @@
   --text-white: #ffffff;
   
   /* Typography Families matching PDFs */
-  --font-heading-fancy: 'Limelight', 'Poiret One', 'Cinzel Decorative', 'Anastasia', cursive, serif;
-  --font-heading: 'Century Gothic', 'Outfit', sans-serif;
+  --font-heading-fancy: 'Anastasia', 'Limelight', 'Poiret One', 'Cinzel Decorative', cursive, serif;
+  --font-heading: 'Anastasia', 'Century Gothic', 'Outfit', sans-serif;
   --font-body: 'Century Gothic', 'Outfit', system-ui, -apple-system, sans-serif;
   /* Brush Script logo font */
   --font-logo: 'Brush Script MT', 'Brush Script', 'Pacifico', cursive;
