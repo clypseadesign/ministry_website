@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PageHero from '../components/PageHero';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { asset } from '../utils/asset';
 
 export default function ContactUs() {
   const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' });
@@ -24,7 +25,7 @@ export default function ContactUs() {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: 'url(/pdf-pages/contact_us_page_1.png)',
+            backgroundImage: `url(${asset('/pdf-pages/contact_us_page_1.png')})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',

@@ -1,33 +1,34 @@
 import React from 'react';
 import PageHero from '../components/PageHero';
 import StatsCounter from '../components/StatsCounter';
+import { asset } from '../utils/asset';
 
 export default function OurWork() {
   const projects = [
     {
       title: 'UNIVERSAL LOVE MUSIC ALBUM',
       desc: 'A groundbreaking multilingual album featuring songs of peace and love in 50+ languages, bringing together artists from every continent.',
-      img: '/our-work/card1.png'
+      img: asset('/our-work/card1.png')
     },
     {
       title: 'PEACE EDUCATION PROGRAM',
       desc: 'A groundbreaking multilingual album featuring songs of peace and love in 50+ languages, bringing together artists from every continent.',
-      img: '/our-work/card2.png'
+      img: asset('/our-work/card2.png')
     },
     {
       title: 'GLOBAL UNITY GATHERINGS',
       desc: 'Monthly virtual and in-person gatherings connecting people across borders for meditation, prayer, and celebration of our shared humanity.',
-      img: '/our-work/card3.png'
+      img: asset('/our-work/card3.png')
     },
     {
       title: 'COMPASSION IN ACTION',
       desc: 'Humanitarian relief programs providing food, shelter, and support to communities in need, demonstrating love through service.',
-      img: '/our-work/card4.png'
+      img: asset('/our-work/card4.png')
     },
     {
       title: 'LOVE RADIO NETWORK',
       desc: 'A 24/7 streaming radio station broadcasting uplifting music, spiritual teachings, and messages of hope in multiple languages.',
-      img: '/our-work/card6.png'
+      img: asset('/our-work/card6.png')
     }
   ];
 
@@ -47,7 +48,7 @@ export default function OurWork() {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: 'url(/pdf-pages/our_work_page_1.png)',
+            backgroundImage: `url(${asset('/pdf-pages/our_work_page_1.png')})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',

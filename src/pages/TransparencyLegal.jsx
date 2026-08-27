@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHero from '../components/PageHero';
+import { asset } from '../utils/asset';
 
 export default function TransparencyLegal() {
   return (
@@ -15,7 +16,7 @@ export default function TransparencyLegal() {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: 'url(/pdf-pages/Transparency_and_Legal_page_1.png)',
+            backgroundImage: `url(${asset('/pdf-pages/Transparency_and_Legal_page_1.png')})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',

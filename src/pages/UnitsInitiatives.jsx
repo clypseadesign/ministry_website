@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHero from '../components/PageHero';
+import { asset } from '../utils/asset';
 import { Music, GraduationCap, HeartHandshake, Users, Radio, Baby } from 'lucide-react';
 
 export default function UnitsInitiatives() {
@@ -55,7 +56,7 @@ export default function UnitsInitiatives() {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: 'url(/pdf-pages/UNIT_and_INITIATIVES_page_1.png)',
+            backgroundImage: `url(${asset('/pdf-pages/UNIT_and_INITIATIVES_page_1.png')})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',

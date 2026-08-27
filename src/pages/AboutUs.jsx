@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Eye, Edit3, Heart, Globe, Shield, HandHeart, UserCheck, Scale } from 'lucide-react';
+import { asset } from '../utils/asset';
 
 export default function AboutUs() {
   const coreValuesList = [
@@ -40,7 +41,7 @@ export default function AboutUs() {
     <div>
       {/* Cloud Banner Section */}
       <section className="hero-cloud-banner">
-        <img src="/assets/all-pages-banner.png" alt="About Us Banner" className="hero-cloud-bg" />
+        <img src={asset('/assets/all-pages-banner.png')} alt="About Us Banner" className="hero-cloud-bg" />
         <div className="hero-content">
           <h1 style={{ fontSize: '4.3rem', marginBottom: '16px' }}>ABOUT US</h1>
           <NavLink to="/donate-us" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'rgba(255, 255, 255, 0.25)', backdropFilter: 'blur(8px)', border: '1px solid rgba(255, 255, 255, 0.4)', padding: '8px 24px', borderRadius: '9999px', color: '#ffffff', fontSize: '0.9rem', fontWeight: '600', textDecoration: 'none' }}>
@@ -59,7 +60,7 @@ export default function AboutUs() {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: 'url(/pdf-pages/about_us_page_1.png)',
+            backgroundImage: `url(${asset('/pdf-pages/about_us_page_1.png')})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',
@@ -107,7 +108,7 @@ export default function AboutUs() {
                 {/* Left Column: Photo */}
                 <div>
                   <img
-                    src="/about-us/family-new.png"
+                    src={asset('/about-us/family-new.png')}
                     alt="C. James White Family"
                     style={{
                       width: '100%',
@@ -237,7 +238,7 @@ export default function AboutUs() {
                 {/* Left Column: Graphic Collage */}
                 <div>
                   <img 
-                    src="/about-us/vision.png" 
+                    src={asset('/about-us/vision.png')} 
                     alt="Our Core Values Graphic Collage" 
                     style={{ 
                       width: '100%', 

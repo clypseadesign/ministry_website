@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHero from '../components/PageHero';
+import { asset } from '../utils/asset';
 import { Heart, Users, Share2, Handshake } from 'lucide-react';
 
 export default function GetInvolved() {
@@ -49,7 +50,7 @@ export default function GetInvolved() {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: 'url(/pdf-pages/GET_INVOLVED_page_1.png)',
+            backgroundImage: `url(${asset('/pdf-pages/GET_INVOLVED_page_1.png')})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',

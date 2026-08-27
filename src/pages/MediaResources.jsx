@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHero from '../components/PageHero';
+import { asset } from '../utils/asset';
 import { Video, BookOpen, HeartPulse, GraduationCap, Headphones } from 'lucide-react';
 
 export default function MediaResources() {
@@ -44,7 +45,7 @@ export default function MediaResources() {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: 'url(/pdf-pages/media_and_resource_page_1.png)',
+            backgroundImage: `url(${asset('/pdf-pages/media_and_resource_page_1.png')})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',

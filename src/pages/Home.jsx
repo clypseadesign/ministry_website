@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Accordion from '../components/Accordion';
 import StatsCounter from '../components/StatsCounter';
 import FounderLetter from '../components/FounderLetter';
+import { asset } from '../utils/asset';
 
 export default function Home() {
   const [activeFlexCard, setActiveFlexCard] = useState(0);
@@ -12,25 +13,25 @@ export default function Home() {
       id: 0,
       title: 'Food, clothing, MEDICAL and shelter assistance',
       text: 'Providing food, clothing, medical, and shelter support for individuals and family facing hardship.',
-      img: '/home-page/card1.png'
+      img: asset('/home-page/card1.png')
     },
     {
       id: 1,
       title: 'Education Support',
       text: 'Helping children and students through educational assistance, guidance, and opportunities for growth.',
-      img: '/home-page/card2.png'
+      img: asset('/home-page/card2.png')
     },
     {
       id: 2,
       title: 'Medical Support',
       text: 'Supporting healthcare and wellness initiatives for vulnerable communities.',
-      img: '/home-page/card3.png'
+      img: asset('/home-page/card3.png')
     },
     {
       id: 3,
       title: 'Moral Guidance',
       text: 'Sharing values rooted in The Universal Royal Law of Love to nurture dignity, compassion, and conscience.',
-      img: '/home-page/card4.png'
+      img: asset('/home-page/card4.png')
     }
   ];
 
@@ -63,7 +64,7 @@ export default function Home() {
       <section style={{ position: 'relative', width: '100%', overflow: 'hidden', background: '#005495' }}>
         <a href="/donate-us" style={{ display: 'block', width: '100%' }}>
           <img 
-            src="/home-page/hero.png" 
+            src={asset('/home-page/hero.png')}
             alt="The Universal Royal Law of Love - Hero Banner" 
             style={{ width: '100%', height: 'auto', display: 'block', cursor: 'pointer' }} 
           />
@@ -180,7 +181,7 @@ export default function Home() {
           <div className="grid-2" style={{ alignItems: 'center', gap: '40px' }}>
             <div>
               <img 
-                src="/home-page/section.png" 
+                src={asset('/home-page/section.png')}
                 alt="Our Belief: Spreading Love Across The World Album" 
                 style={{ width: '100%', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-md)' }} 
               />
@@ -266,7 +267,7 @@ export default function Home() {
           <div className="grid-2" style={{ alignItems: 'flex-start', gap: '40px', marginTop: '36px' }}>
             <div style={{ textAlign: 'center' }}>
               <img 
-                src="/home-page/founder.png" 
+                src={asset('/home-page/founder.png')} 
                 alt="Dr. C. James White" 
                 style={{ width: '280px', height: '360px', objectFit: 'cover', borderRadius: 'var(--radius-md)', margin: '0 auto', boxShadow: 'var(--shadow-md)' }} 
               />

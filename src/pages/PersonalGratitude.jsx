@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHero from '../components/PageHero';
+import { asset } from '../utils/asset';
 import { Heart, Award, Star, Download } from 'lucide-react';
 import founderImg from '/assets/91e0b0b1480b4477247e78718d2ec15606e7e622.jpg';
 
@@ -17,7 +18,7 @@ export default function PersonalGratitude() {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: 'url(/pdf-pages/PERSONAL_GRATITUDE_and_SINCERE_THANKS_page_1.png)',
+            backgroundImage: `url(${asset('/pdf-pages/PERSONAL_GRATITUDE_and_SINCERE_THANKS_page_1.png')})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat',
@@ -197,7 +198,7 @@ export default function PersonalGratitude() {
                   The family behind God Cares Ministries continues to support the ministry, its charitable purposes, and all productions through personal sacrifice and dedicated commitment.
                 </p>
                 <img 
-                  src="/about-us/family-new.png" 
+                  src={asset('/about-us/family-new.png')} 
                   alt="C. James White Family" 
                   style={{ 
                     width: '100%', 

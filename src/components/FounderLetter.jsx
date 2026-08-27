@@ -1,4 +1,5 @@
 import React from 'react';
+import { asset } from '../utils/asset';
 
 export default function FounderLetter() {
   return (
@@ -33,7 +34,7 @@ export default function FounderLetter() {
           }}
         >
           <img 
-            src="/home-page/letter.jpg" 
+            src={asset('/home-page/letter.jpg')} 
             alt="Official Message from the Founder / Director - God Cares Ministries" 
             style={{ 
               width: '100%', 
