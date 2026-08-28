@@ -1,5 +1,23 @@
 @import './design-tokens.css';
 
+/* Override Century Gothic Bold to avoid local font matching issues on Windows */
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.cdnfonts.com/s/18111/GOTHICB.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: bold;
+    src: url('https://fonts.cdnfonts.com/s/18111/GOTHICB.woff') format('woff');
+}
+
+b, strong {
+  font-weight: 700;
+}
+
 /* Century Gothic & Anastasia are loaded via cdnfonts <link> in index.html.
    Body text uses Century Gothic; headings keep the fancy font. */
 

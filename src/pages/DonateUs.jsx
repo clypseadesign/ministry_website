@@ -41,19 +41,19 @@ const fcraRows = [
 ];
 
 const indianBankLines = [
-  'NAME: James White. C',
-  'MOBILE NO. +91-88923 36400.',
-  'A/C. NO: 30037928670.',
-  'NAME OF THE BANK: State Bank of India',
-  'BANK ADDRESS: No.2, A Muni Reddy Layout,',
-  'Horamavu Main, Bangalore.',
-  'PHONE NO. OF BANK: 080-25943396.',
-  'EMAIL OF BANK: sbi.13397@sbi.co.in',
-  'TYPE OF BANK ACCOUNT: Savings Bank Account',
-  'BANK BRANCH CODE: 13397',
-  'CIF NO. 85021807847.',
-  'IFSC CODE: SBIN0040807 (After SBIN it is zero zero not OO)',
-  'SWIFT CODE NO. : SBININBB223'
+  { label: 'NAME:', value: 'James White. C' },
+  { label: 'MOBILE NO.', value: '+91 88923 36400.' },
+  { label: 'A/C. NO:', value: '30037928670.' },
+  { label: 'NAME OF THE BANK:', value: 'State Bank of India' },
+  { label: 'BANK ADDRESS:', value: 'No.2, A Muni Reddy Layout,' },
+  { label: '', value: 'Horamavu Main, Bangalore.' },
+  { label: 'PHONE NO. OF BANK:', value: '080 25943396.' },
+  { label: 'EMAIL OF BANK:', value: 'sbi.13397@sbi.co.in' },
+  { label: 'TYPE OF BANK ACCOUNT:', value: 'Savings Bank Account' },
+  { label: 'BANK BRANCH CODE:', value: '13397' },
+  { label: 'CIF NO.', value: '85021807847.' },
+  { label: 'IFSC CODE:', value: 'SBIN0040807 (After SBIN it is zero zero not OO)' },
+  { label: 'SWIFT CODE NO. :', value: 'SBININBB223' }
 ];
 
 const headingFancy = {
@@ -296,7 +296,7 @@ export default function DonateUs() {
           <h2 style={{ ...headingFancy, fontSize: '3.2rem', textAlign: 'center', marginBottom: '20px' }}>
             Scan &amp; Donate
           </h2>
-          <p style={{ color: 'var(--accent-gold)', textAlign: 'center', fontSize: '1.05rem', lineHeight: 1.7, margin: '0 auto 36px auto', maxWidth: '920px' }}>
+          <p style={{ color: 'var(--accent-gold)', textAlign: 'center', fontSize: '1.05rem', lineHeight: 1.7, margin: '0 auto 36px auto', maxWidth: '920px', fontWeight: 700 }}>
             Donations made to God Cares Ministries are eligible for tax exemption in accordance with applicable laws.
             <br />
             Official donation receipts will be provided for eligible contributions.
@@ -547,7 +547,7 @@ export default function DonateUs() {
                 <div key={label} style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', marginBottom: '10px', fontSize: '1rem', lineHeight: 1.5 }}>
                   <Check size={18} style={{ flexShrink: 0, marginTop: '3px' }} />
                   <span>
-                    {label} {value}
+                    <strong>{label}</strong> {value}
                   </span>
                 </div>
               ))}
@@ -584,9 +584,9 @@ export default function DonateUs() {
           <div className="donate-bank-grid">
             <div>
               <h3 style={{ ...headingFancy, fontSize: '2.6rem', marginBottom: '20px', textAlign: 'left' }}>Bank Details</h3>
-              {indianBankLines.map((line) => (
-                <p key={line} style={{ color: 'var(--text-muted)', fontSize: '1.02rem', lineHeight: 1.85, margin: 0 }}>
-                  {line}
+              {indianBankLines.map((item, idx) => (
+                <p key={idx} style={{ color: 'var(--text-muted)', fontSize: '1.02rem', lineHeight: 1.85, margin: 0 }}>
+                  {item.label && <strong>{item.label} </strong>}{item.value}
                 </p>
               ))}
             </div>
