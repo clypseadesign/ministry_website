@@ -15,6 +15,7 @@ import ContactUs from './pages/ContactUs';
 import TransparencyLegal from './pages/TransparencyLegal';
 import PersonalGratitude from './pages/PersonalGratitude';
 import PaymentSuccessful from './pages/PaymentSuccessful';
+import TestAssets from './pages/TestAssets';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -44,6 +45,7 @@ export default function App() {
           <Route path="/transparency-legal" element={<TransparencyLegal />} />
           <Route path="/gratitude" element={<PersonalGratitude />} />
           <Route path="/payment-successful" element={<PaymentSuccessful />} />
+          <Route path="/test-assets" element={<TestAssets />} />
         </Routes>
       </main>
       <Footer />

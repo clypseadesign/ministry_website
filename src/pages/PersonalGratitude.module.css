@@ -1,0 +1,25 @@
+/* src/pages/PersonalGratitude.module.css */
+.pageContainer {
+  position: relative;
+  min-height: 600px;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  opacity: 0.15; /* semi‑transparent to let content show */
+  pointer-events: none;
+}
+
+.contentWrapper {
+  position: relative;
+  z-index: 1;
+  padding: 24px;
+}

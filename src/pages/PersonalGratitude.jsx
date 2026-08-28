@@ -11,8 +11,8 @@ export default function PersonalGratitude() {
 
       {/* Main Content with PDF Page Background */}
       <section style={{ position: 'relative', minHeight: '600px' }}>
-        <div 
-          style={{ 
+        <div
+          style={{
             position: 'absolute',
             top: 0,
             left: 0,
