@@ -60,7 +60,7 @@ export default function GetInvolved() {
                   src={asset(item.img)}
                   alt={item.title}
                   className="image-card-img"
-                  style={{ display: 'block', width: '100%', height: '240px', objectFit: 'cover' }}
+                  style={{ display: 'block', width: '100%', aspectRatio: '3 / 2', objectFit: 'cover' }}
                 />
                 <div
                   className="image-card-body"
