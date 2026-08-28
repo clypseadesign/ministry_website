@@ -265,6 +265,41 @@
   gap: 32px;
 }
 
+/* 2-column grid with an odd last card centered at the same card width */
+.card-grid-last-center > *:last-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  max-width: calc(50% - 38px);
+}
+
+.donate-mission-inner {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.9fr) 2.2fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.donate-tiers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.donate-scan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.donate-bank-grid {
+  display: grid;
+  grid-template-columns: 1fr minmax(280px, 400px);
+  gap: 40px;
+  align-items: start;
+}
+
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -698,8 +733,15 @@
   .mobile-menu-btn {
     display: block;
   }
-  .grid-2, .grid-3, .grid-4 {
+  .grid-2, .grid-3, .grid-4,
+  .donate-mission-inner,
+  .donate-tiers,
+  .donate-scan-grid,
+  .donate-bank-grid {
     grid-template-columns: 1fr;
+  }
+  .card-grid-last-center > *:last-child {
+    max-width: 100%;
   }
   .hero-title {
     font-size: 2.5rem;
