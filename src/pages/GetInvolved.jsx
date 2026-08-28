@@ -60,8 +60,16 @@ export default function GetInvolved() {
                   src={asset(item.img)}
                   alt={item.title}
                   className="image-card-img"
+                  style={{ display: 'block', width: '100%', height: '240px', objectFit: 'cover' }}
                 />
-                <div className="image-card-body">
+                <div
+                  className="image-card-body"
+                  style={{
+                    padding: '20px 24px',
+                    borderTop: '1px solid var(--border-card)',
+                    background: '#ffffff'
+                  }}
+                >
                   <h3 style={{ fontSize: '1.5rem', color: 'var(--primary-dark-blue)', fontFamily: 'var(--font-heading-fancy)', marginBottom: '12px', textTransform: 'uppercase', letterSpacing: '1px' }}>
                     {item.title}
                   </h3>
