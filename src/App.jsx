@@ -28,11 +28,14 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  const { pathname } = useLocation();
+  const showShell = !pathname.startsWith('/gratitude');
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <ScrollToTop />
-      <Header />
-      <main style={{ flex: 1 }}>
+      {showShell && <Header />}
+      <main style={{ flex: 1, background: '#ffffff' }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
@@ -48,7 +51,7 @@ export default function App() {
           <Route path="/test-assets" element={<TestAssets />} />
         </Routes>
       </main>
-      <Footer />
+      {showShell && <Footer />}
     </div>
   );
 }
